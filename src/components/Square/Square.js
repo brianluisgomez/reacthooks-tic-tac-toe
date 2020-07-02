@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Square.module.css';
 import { Button, Typography } from '@material-ui/core/';
 
 const Square = ({ value, onClick }) => (
@@ -12,11 +11,3 @@ const Square = ({ value, onClick }) => (
 );
 
 export default Square;
-
-// Not used
-
-//const Square = ({ value, onClick }) => (
-//     <button className={styles.square} onClick={onClick}>
-//       {value}
-//     </button>
-//   );
